@@ -1,0 +1,13 @@
+/*NAVBAR Navigation*/
+.navbar-expand-lg {
+    background-color: #050220;
+    color: #dbd8d8fa !important;
+}
+.nav-link {
+        color: rgb(190, 185, 185);
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;
+}
+.nav-link:hover{
+    color: #ffffff !important;
+}
