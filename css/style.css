@@ -19,6 +19,7 @@
     height: 480px;
     padding-top: 60px;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
 }
 .petit_presentation img{
     height: 175px;
@@ -64,4 +65,24 @@
     background-color: white;
     color: black;
     box-shadow: 2px 3px white;
+}
+
+/*Travaux*/
+.card{
+    margin-left: 5px;
+    width: 160px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.card .card-title{
+    color: blue !important;
+    font-weight: bold;
+}
+.card .card-text{
+    color: #4b4b4d !important;
+    font-size: 13px;
 }
