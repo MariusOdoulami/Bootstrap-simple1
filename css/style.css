@@ -48,14 +48,16 @@
     text-decoration: none;
     color: white;
     margin-right: 10px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 .petit_presentation .me_contacter{
     background-color: blue;
     border: 1px blue solid;
 }
 .petit_presentation .me_contacter:hover{
-    padding: 15px 25px 7px 25px;
-     box-shadow: 5px  lightblue;
+    transform: translateY(-15px);
+    box-shadow: 0 10px 20px rgb(9, 85, 110);
 }
 .petit_presentation .télécharger_CV{
     border: 1px white solid;
@@ -68,7 +70,10 @@
 }
 
 /*Travaux*/
-.card{
+#Trv {
+    margin-top:0px;
+}
+#Trv .card{
     margin-left: 5px;
     width: 160px;
     font-family: 'Times New Roman', Times, serif;
@@ -78,11 +83,53 @@
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px grey;
 }
-.card .card-title{
+#Trv .card .card-title{
     color: blue !important;
     font-weight: bold;
 }
-.card .card-text{
+#Trv .card .card-text{
     color: #4b4b4d !important;
     font-size: 13px;
 }
+/*Compétences*/
+#competences{
+    background-color: #f7f7ff;
+    border-top: 1px solid #c7c7cc;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px; 
+    padding: 40px 0;
+    align-item: center;
+}
+#competences img{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+#competences .card{
+    width: 350px;
+    padding: 15px 0px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#competences .card:hover{
+    transform: translateY(-5px);
+    box-shadow : 0 10px 20px rgb(209, 203, 203);
+}
+#competences h1,h5{
+    font-weight: bold;
+} 
+#competences p{
+    font-size: 18px;
+    color: #4d4a4a !important;
+}
+#competences button{
+    border: 1px solid #0c63e6;
+    border-radius: 25px;
+    padding: 7px 10px;
+    background-color: #628ecf;
+    color: #0452c7 ;
+    font-weight: bold;
+    margin: 0 15px 10px 0;
+}
+                                                     
